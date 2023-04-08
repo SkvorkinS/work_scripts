@@ -1,0 +1,18 @@
+# ignore Logs
+logs/
+
+# Ignore personal credentials
+credentials.py
+
+# Ignore README.md
+README.md
+
+# Ignore work dirrectories and files
+__pycache__
+data/
+FTP/
+logs/
+*.csv
+*.xls
+
+
