@@ -1,20 +1,27 @@
-# Work Scripts
+# Work Scripts Repository
+A central storage for synchronizing scripts across various workstations.
 
-Repository for sync between workstations
+---
 
-### Bonuses script
+### GSM Integration Script
+This script receives data from the GSM site and records it to a file. It then forwards this file to the Itigris servers. The resulting information is dispatched to Telegram via a bot.
 
-Gets phone numbers from a CSV file and makes requests to get the rest of the client's bonuses
+### Payment Registry Scripts
+These scripts take hard-coded data, format it, and store it in the clipboard for future use.
 
-### BXBDComprassion script
+### Tilda Integration
+This is a Flask server that receives data from Tilda and subsequently sends it to Bitrix.
 
-Compares two dumps, and the missing and different ones, will be sent to the database
+### BXBD Comparison Script
+This script compares two data dumps. It identifies and logs any disparities or missing elements and sends this information to the database.
 
-### GSM integration script
- 
-Receives data from the GSM site and writes to a file. Sends file to itigris servers. Result sends to Telegram via bot.
+### Bonuses Script
+This script extracts phone numbers from a CSV file and generates requests to retrieve the rest of the client's bonus information.
 
-### Get client ID
+### Client Duplicate Finder
+This script identifies client duplicates in a CSV file based on phone numbers.
 
-Receives the client number as input and issues its ID from Optima to the output
+###  Get Client ID Script
+This script accepts the client number as input and returns the corresponding ID from Optima.
 
+Please ensure the scripts are updated to the latest versions in all workstations for optimal performance and synchronization.
