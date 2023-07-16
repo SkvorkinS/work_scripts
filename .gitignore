@@ -1,0 +1,12 @@
+Tilda Integration/TildaSite/credentials.py
+GSM and Optima Integration/credentials.py
+GSM and Optima Integration/FTP
+credentials.py
+scripts_venv
+
+__pycache__
+
+*/__pycache__
+*.pyc
+*.csv
+*.json
